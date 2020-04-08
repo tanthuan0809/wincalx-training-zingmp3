@@ -19,7 +19,7 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "semi": [0],
-    "quotes": ["error", "double"],
+    "quotes": [0, "double"],
     "comma-dangle": ["error", "never"],
     "operator-linebreak": ["error", "after"],
     "no-console": ["error", { "allow": ["warn"] }],
@@ -29,6 +29,11 @@
         "component": true,
         "html": false
       }
-    ]
+    ],
+    "linebreak-style": 0,
+    "arrow-body-style": 0,
+    "react/jsx-indent": 0,
+    "indent": 0,
+    "react/prop-types": 0
   }
 }
