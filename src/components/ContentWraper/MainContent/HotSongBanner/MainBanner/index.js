@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function index() {
-  return <div>asdfdf</div>;
-}
+const index = () => <div></div>;
+
+export default index;

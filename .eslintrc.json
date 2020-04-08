@@ -18,7 +18,17 @@
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+    "semi": [0],
+    "quotes": ["error", "double"],
+    "comma-dangle": ["error", "never"],
+    "operator-linebreak": ["error", "after"],
+    "no-console": ["error", { "allow": ["warn"] }],
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": false
+      }
+    ]
   }
 }
