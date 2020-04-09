@@ -1,8 +1,13 @@
+// libs import
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-// COMPONENTS
-import BannerItem from "./BannerItem";
+// components
+import BannerItem from "../../components/BannerItem";
+
+/**
+ * BannerListItems - List banner
+ */
 
 const BannerListItems = () => {
   const [banners, setBanners] = useState([]);
@@ -20,9 +25,11 @@ const BannerListItems = () => {
   });
   return (
     <div className="banner-item-wrapper">
-      {banners.map((banner) => (
-        <BannerItem banner={banner} />
-      ))}
+      <div className="banner-item-wrapper-inner">
+        {banners.map((banner) => (
+          <BannerItem banner={banner} />
+        ))}
+      </div>
     </div>
   );
 };

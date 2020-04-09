@@ -1,10 +1,13 @@
+// LIBS IMPORT
 import React from "react";
-import HomePage from "./pages/HomePage";
+
+// COMPONENTS
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="home-page">
-      <HomePage />
+    <div className="home">
+      <Home />
     </div>
   );
 }
