@@ -3,6 +3,8 @@ import React from "react";
 
 // components
 
+// style
+import "./style.scss";
 /**
  * MainBanner - main banner
  */

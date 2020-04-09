@@ -5,6 +5,8 @@ import axios from "axios";
 // components
 import BannerItem from "../../components/BannerItem";
 
+import "./style.scss";
+
 /**
  * BannerListItems - List banner
  */
@@ -22,10 +24,10 @@ const BannerListItems = () => {
       .catch((err) => {
         console.warn(err);
       });
-  });
+  }, []);
   return (
-    <div className="banner-item-wrapper">
-      <div className="banner-item-wrapper-inner">
+    <div className="banner-list-items-wrapper">
+      <div className="banner-list-items-wrapper-inner">
         {banners.map((banner) => (
           <BannerItem banner={banner} />
         ))}
