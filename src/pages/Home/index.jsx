@@ -2,8 +2,9 @@
 import React from "react";
 
 // components
-import HotSongBanners from "./HotSongBanners";
-import SongRanking from "./SongRanking";
+// import HotSongBanners from "./HotSongBanners";
+// import SongRanking from "./SongRanking";
+import HotSongs from "./HotSongs";
 
 /**
  * Home - home page
@@ -12,8 +13,11 @@ import SongRanking from "./SongRanking";
 const Home = () => {
   return (
     <div className="home">
-      <HotSongBanners />
-      <SongRanking />
+      {/* <HotSongBanners />
+      <SongRanking /> */}
+      <section>
+        <HotSongs />
+      </section>
     </div>
   );
 };
