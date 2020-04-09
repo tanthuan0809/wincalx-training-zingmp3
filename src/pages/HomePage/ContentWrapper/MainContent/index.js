@@ -1,10 +1,12 @@
 import React from "react";
 import HotSongBanner from "./HotSongBanner";
+import HotSongs from './HotSongs'
 
 const MainContent = () => {
   return (
     <div className="main-content">
-      <HotSongBanner />
+      {/* <HotSongBanner /> */}
+      <HotSongs/>
     </div>
   );
 };

@@ -1,0 +1,37 @@
+.hot-songs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  grid-column-gap: 0.5rem;
+
+  .hot-song-wraper {
+    &__1 {
+      grid-column: 1;
+    }
+
+    &__2 {
+      grid-column: 2;
+    }
+  }
+  .hot-songs-list {
+    margin-bottom: 2rem;
+    h3 {
+      text-transform: uppercase;
+    }
+    .hot-songs-item {
+      display: grid;
+      grid-template-columns: 20% 80%;
+      grid-column-gap: 0.5rem;
+      border: 1px solid whitesmoke;
+      img {
+        width: 100%;
+        grid-column: 1;
+        object-fit: fill;
+      }
+      &__title {
+        grid-column: 2;
+        align-self: center;
+      }
+    }
+  }
+}
