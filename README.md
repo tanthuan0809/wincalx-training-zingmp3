@@ -9,3 +9,6 @@
 > Snippets for VSCode
 > 
 > Quick create component : `qcc`
+
+ - Directory tree in STRUCT.md is created by [Tree Ubuntu](http://manpages.ubuntu.com/manpages/xenial/man1/tree.1.html) and [sed](https://www.gnu.org/software/sed/manual/sed.html)
+ > `$ tree --dirsfirst -L 5 -I node_modules -F | sed 's/^/\t/'> STRUCT.md`
