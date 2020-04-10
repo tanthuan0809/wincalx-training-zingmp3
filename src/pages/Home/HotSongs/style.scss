@@ -1,9 +1,11 @@
 .hot-songs-wraper-inner {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 300px);
   grid-column-gap: 0.5rem;
   padding-left: 1rem;
   grid-template-rows: 1fr;
+  justify-items: stretch;
+  align-items: stretch;
   &__1 {
     grid-column: 1;
     grid-row: 1;
