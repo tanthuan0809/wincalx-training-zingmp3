@@ -5,6 +5,11 @@ import React from "react";
 // import HotSongBanners from "./HotSongBanners";
 // import SongRanking from "./SongRanking";
 import HotSongs from "./HotSongs";
+import AlbumHot from "./AlbumHot";
+import MusicNew from "./MusicNew";
+
+// import style
+import "./style.scss";
 
 /**
  * Home - home page
@@ -12,12 +17,18 @@ import HotSongs from "./HotSongs";
 
 const Home = () => {
   return (
-    <div className="home">
-      {/* <HotSongBanners />
+    <div className="home-wrapper">
+      <div className="home-wraper-inner">
+        {/* <HotSongBanners />
       <SongRanking /> */}
-      <section>
-        <HotSongs />
-      </section>
+        <section className="home-wrapper-section__1 ">
+          <HotSongs />
+          <MusicNew />
+        </section>
+        <section className="home-wrapper-section__2 ">
+          <AlbumHot />
+        </section>
+      </div>
     </div>
   );
 };
