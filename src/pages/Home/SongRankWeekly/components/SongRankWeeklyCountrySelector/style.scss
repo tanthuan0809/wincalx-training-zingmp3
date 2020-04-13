@@ -1,0 +1,6 @@
+.song-rank-weekly-country-selector-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

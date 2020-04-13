@@ -8,7 +8,8 @@ import HotSongs from "./HotSongs";
 import AlbumHot from "./AlbumHot";
 import MusicNew from "./MusicNew";
 import MusicForYou from "./MusicForYou";
-
+import SongRankWeekly from "./SongRankWeekly";
+import HotTheme from "./HotTheme";
 // import style
 import "./style.scss";
 
@@ -31,6 +32,12 @@ const Home = () => {
         </section>
         <section>
           <MusicForYou />
+        </section>
+        <section>
+          <SongRankWeekly />
+        </section>
+        <section>
+          <HotTheme />
         </section>
       </div>
     </div>
