@@ -2,8 +2,8 @@
 import React from "react";
 
 // import conponent
-import HotNewInfo from "../HotNewInfo";
-import HotNewThumbnail from "../HotNewThumbnail";
+import HotNewInfo from "./HotNewInfo";
+import HotNewThumbnail from "./HotNewThumbnail";
 
 // import style
 import "./style.scss";

@@ -2,8 +2,8 @@
 import React from "react";
 
 // import conponent
-import SongThumbnail from "../SongThumbnail";
-import SongInfo from "../SongInfo";
+import SongThumbnail from "./SongThumbnail";
+import SongInfo from "./SongInfo";
 
 // import style
 import "./style.scss";

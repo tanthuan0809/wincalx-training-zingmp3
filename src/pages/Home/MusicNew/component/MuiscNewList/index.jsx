@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 // import conponent
-import MusicNewItem from "../MuiscNewItem";
+import MusicNewItem from "./MuiscNewItem";
 
 // import style
 import "./style.scss";
