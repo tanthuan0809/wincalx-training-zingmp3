@@ -1,21 +1,40 @@
 // libs import
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 // components
+import SongInTop from "../SongInTop";
 
 // style
 import "./style.scss";
 
 /**
- * ChartLineTop - Chart line top
+ * SongInTopList - top song
  */
 
-const ChartLineTop = () => {
+const SongInTopList = () => {
+  const [listSong, setListSong] = useState([]);
+
+  useEffect(() => {
+    axios({
+      method: "GET",
+      url: "https://jsonplaceholder.typicode.com/photos?_limit=5"
+    })
+      .then((res) => {
+        setListSong(res.data);
+      })
+      .catch((err) => {
+        console.warn(err);
+      });
+  }, []);
+
   return (
-    <div className="chart-line-top-wrapper">
-      <img src="https://via.placeholder.com/800x400/92c952" alt="img" />
+    <div className="song-in-top-list-wrapper">
+      {listSong.map((song) => (
+        <SongInTop key={song.id} song={song} />
+      ))}
     </div>
   );
 };
 
-export default ChartLineTop;
+export default SongInTopList;

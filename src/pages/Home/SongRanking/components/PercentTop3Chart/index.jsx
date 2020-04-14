@@ -11,10 +11,10 @@ import "./style.scss";
  * @param { string } percent - percent of song
  */
 
-const PercentTop3Chart = ({ percent }) => {
+const PercentTop3Chart = ({ percent, top }) => {
   return (
     <div className="percent-top-3-chart-wrapper">
-      <div className="percet">{percent}</div>
+      <div className={`percet top-${top}`}>{percent}</div>
     </div>
   );
 };

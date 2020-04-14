@@ -2,6 +2,7 @@
 import React from "react";
 
 // components
+import SongInTopList from "../../components/SongInTopList";
 
 // style
 import "./style.scss";
@@ -13,7 +14,9 @@ import "./style.scss";
 const TopSongInRanking = () => {
   return (
     <div className="top-song-in-ranking-wrapper">
-      <div className="top-song-in-ranking-wrapper-inner"></div>
+      <div className="top-song-in-ranking-wrapper-inner">
+        <SongInTopList />
+      </div>
     </div>
   );
 };

@@ -12,10 +12,44 @@
 	│   │   └── Home/
 	│   │       ├── HotSongBanners/
 	│   │       │   ├── components/
+	│   │       │   │   └── BannerItem/
 	│   │       │   ├── mains/
+	│   │       │   │   ├── BannerListItems/
+	│   │       │   │   └── MainBanner/
 	│   │       │   ├── index.jsx*
 	│   │       │   └── style.scss*
 	│   │       ├── SongRanking/
+	│   │       │   ├── components/
+	│   │       │   │   ├── ChartLineTop/
+	│   │       │   │   ├── DayChart/
+	│   │       │   │   ├── DayChartList/
+	│   │       │   │   ├── Divider/
+	│   │       │   │   ├── HashtagChart/
+	│   │       │   │   ├── HeaderTop3Chart/
+	│   │       │   │   ├── PercentTop3Chart/
+	│   │       │   │   ├── ShareIcon/
+	│   │       │   │   ├── SingerName/
+	│   │       │   │   ├── SingerNameTop3Chart/
+	│   │       │   │   ├── SongInFo/
+	│   │       │   │   ├── SongInfoTop3Chart/
+	│   │       │   │   ├── SongInTop/
+	│   │       │   │   ├── SongInTop3Chart/
+	│   │       │   │   ├── SongInTopList/
+	│   │       │   │   ├── SongListInTop3Chart/
+	│   │       │   │   ├── SongName/
+	│   │       │   │   ├── SongNameTop3Chart/
+	│   │       │   │   ├── SongNumberViewer/
+	│   │       │   │   ├── SongOption/
+	│   │       │   │   ├── SongThumbnail/
+	│   │       │   │   ├── SongTop/
+	│   │       │   │   ├── ThumbnailTop3Chart/
+	│   │       │   │   ├── TimeUpdateChart/
+	│   │       │   │   ├── Top3Ranking/
+	│   │       │   │   ├── TopNumber/
+	│   │       │   │   └── TopNumberTop3Chart/
+	│   │       │   ├── mains/
+	│   │       │   │   ├── ChartRanking/
+	│   │       │   │   └── TopSongListInRanking/
 	│   │       │   ├── index.jsx*
 	│   │       │   └── style.scss*
 	│   │       ├── index.jsx*
@@ -33,4 +67,4 @@
 	├── README.md*
 	└── STRUCT.md*
 	
-	9 directories, 24 files
+	43 directories, 24 files

@@ -22,7 +22,7 @@ const SongInTop3Chart = ({ song }) => {
       <TopNumberTop3Chart top={song.id} />
       <ThumbnailTop3Chart thumbnail={song.thumbnailUrl} />
       <SongInfoTop3Chart name={song.title} />
-      <PercentTop3Chart percent="50%" />
+      <PercentTop3Chart percent="50%" top={song.id} />
     </div>
   );
 };

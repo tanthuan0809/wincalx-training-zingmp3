@@ -14,7 +14,7 @@ import "./style.scss";
 const TopNumberTop3Chart = ({ top }) => {
   return (
     <div className="top-number-top-3-chart-wrapper">
-      <div className="top">{`0${top}`}</div>
+      <div className={`top top-${top}`}>{`0${top}`}</div>
     </div>
   );
 };
