@@ -2,6 +2,7 @@
 import React from "react";
 
 // components
+import SongListInTop3Chart from "../SongListInTop3Chart";
 
 // style
 import "./style.scss";
@@ -11,7 +12,11 @@ import "./style.scss";
  */
 
 const Top3Ranking = () => {
-  return <div className="top-3-ranking-wrapper"></div>;
+  return (
+    <div className="top-3-ranking-wrapper">
+      <SongListInTop3Chart />
+    </div>
+  );
 };
 
 export default Top3Ranking;

@@ -31,7 +31,7 @@ const SongListInTop3Chart = () => {
   return (
     <div className="song-list-in-top-3-chart-wrapper">
       {listSong.map((song) => (
-        <SongInTop3Chart song={song} />
+        <SongInTop3Chart key={song.id} song={song} />
       ))}
     </div>
   );

@@ -1,4 +1,14 @@
 .song-in-top-3-chart-wrapper {
-  border: 1px solid #aaa;
-  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 1fr;
+  align-items: center;
+  justify-items: center;
+  border: 0.5px solid rgba($color: #fff, $alpha: 0.3);
+  border-radius: 3px;
+  height: 100%;
+
+  &:hover {
+    border: none;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+  }
 }
