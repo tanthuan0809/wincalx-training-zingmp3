@@ -1,0 +1,8 @@
+.hot-keyword-social-wrapper {
+  .list-album-keyword-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px 20px;
+  }
+}
