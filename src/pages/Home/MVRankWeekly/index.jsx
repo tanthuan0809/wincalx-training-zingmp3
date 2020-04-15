@@ -14,7 +14,7 @@ import "./style.scss";
 
 const MVRankWeekly = () => {
   return (
-    <div className="mv-rank-weeky-wrapper">
+    <div className="mv-rank-weekly-wrapper">
       <HeaderMVRank />
       <ContentMVRank />
     </div>

@@ -3,6 +3,7 @@ import React from "react";
 import { Tabs } from "antd";
 
 // components
+import ListMVRank from "../../components/ListMVRank";
 
 // style
 import "./style.scss";
@@ -15,15 +16,15 @@ const { TabPane } = Tabs;
 const ContentMVRank = () => {
   return (
     <div className="content-mv-rank-wrapper">
-      <Tabs type="card">
-        <TabPane tab="Tab 1" key="1">
-          Content of Tab Pane 1
+      <Tabs defaultActiveKey="1">
+        <TabPane tab="Việt Nam" key="1">
+          <ListMVRank />
         </TabPane>
-        <TabPane tab="Tab 2" key="2">
-          Content of Tab Pane 2
+        <TabPane tab="US-UK" key="2">
+          <ListMVRank />
         </TabPane>
-        <TabPane tab="Tab 3" key="3">
-          Content of Tab Pane 3
+        <TabPane tab="K-Pop" key="3">
+          <ListMVRank />
         </TabPane>
       </Tabs>
     </div>
