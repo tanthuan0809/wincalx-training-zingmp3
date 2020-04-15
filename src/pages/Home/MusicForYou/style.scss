@@ -1,0 +1,11 @@
+.music-for-you-wrappeer {
+  &-inner {
+    width: 250px;
+    height: 200px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://via.placeholder.com/300/red");
+  }
+}
