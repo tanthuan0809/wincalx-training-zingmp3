@@ -13,6 +13,7 @@ import HotTheme from "./HotTheme";
 import PartnerCompanies from "./PartnerCompanies";
 import HotSinger from "./HotSinger";
 import MVRankWeekly from "./MVRankWeekly";
+import AlbumRankWeekly from "./AlbumRankWeekly";
 import HotVideos from "./HotVideos";
 import HotKeywordSocial from "./HotKeywordSocial";
 // import style
@@ -41,6 +42,7 @@ const Home = () => {
         <MVRankWeekly />
         <HotVideos />
         <HotKeywordSocial />
+        <AlbumRankWeekly />
       </div>
     </div>
   );
