@@ -1,0 +1,11 @@
+.hot-keyword-social-wrapper {
+  .title-album-wrapper {
+    .title-album {
+      text-transform: capitalize;
+
+      &:hover {
+        color: rgb(151, 4, 151);
+      }
+    }
+  }
+}

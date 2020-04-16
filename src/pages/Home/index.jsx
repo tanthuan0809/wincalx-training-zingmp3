@@ -14,7 +14,10 @@ import PartnerCompanies from "./PartnerCompanies";
 import HotSinger from "./HotSinger";
 import MVRankWeekly from "./MVRankWeekly";
 import HotVideos from "./HotVideos";
+import HotKeywordSocial from "./HotKeywordSocial";
 // import style
+
+// styles
 import "./style.scss";
 
 /**
@@ -27,30 +30,17 @@ const Home = () => {
       <div className="home-wraper-inner">
         <HotSongBanners />
         <SongRanking />
-        <section className="home-wrapper-section__1 ">
-          <HotSongs />
-          <MusicNew />
-        </section>
-        <section className="home-wrapper-section__2 ">
-          <AlbumHot />
-        </section>
-        <section>
-          <MusicForYou />
-        </section>
-        <section>
-          <SongRankWeekly />
-        </section>
-        <section>
-          <HotTheme />
-        </section>
-        <section>
-          <PartnerCompanies />
-        </section>
-        <section>
-          <HotSinger />
-        </section>
+        <HotSongs />
+        <MusicNew />
+        <AlbumHot />
+        <MusicForYou />
+        <SongRankWeekly />
+        <HotTheme />
+        <PartnerCompanies />
+        <HotSinger />
         <MVRankWeekly />
         <HotVideos />
+        <HotKeywordSocial />
       </div>
     </div>
   );
