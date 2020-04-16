@@ -1,0 +1,11 @@
+.song-rank-colection-first-item-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    padding-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+}

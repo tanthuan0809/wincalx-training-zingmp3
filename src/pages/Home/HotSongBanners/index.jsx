@@ -14,9 +14,11 @@ import "./style.scss";
 
 const HotSongBanners = () => {
   return (
-    <div className="hot-song-banners">
-      <MainBanner />
-      <BannerListItems />
+    <div className="hot-song-banners-wrapper">
+      <div className="hot-song-banners-wrapper-inner">
+        <MainBanner />
+        <BannerListItems />
+      </div>
     </div>
   );
 };

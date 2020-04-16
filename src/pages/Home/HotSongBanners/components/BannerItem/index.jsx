@@ -1,6 +1,9 @@
 // libs import
 import React from "react";
 
+// style
+import "./style.scss";
+
 /**
  * @param {object} banner - transmisson in banner item info
  */

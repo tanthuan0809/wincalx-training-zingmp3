@@ -1,0 +1,9 @@
+.album-hot-list-wraper {
+  width: 900px;
+  &-inner {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 125px);
+    grid-gap: 10px;
+  }
+}
