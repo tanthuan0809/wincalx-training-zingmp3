@@ -1,0 +1,9 @@
+.hot-theme-wrapper {
+  width: 250px;
+  padding-left: 10px;
+  &-inner {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-row-gap: 10px;
+  }
+}

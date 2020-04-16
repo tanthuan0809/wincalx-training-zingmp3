@@ -1,0 +1,8 @@
+.music-new-colection-wraper {
+  width: 300px;
+  &-inner {
+    display: grid;
+    grid-template-rows: 1fr 2.5fr;
+    grid-row-gap: 10px;
+  }
+}
