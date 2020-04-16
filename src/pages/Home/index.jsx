@@ -4,7 +4,7 @@ import React from "react";
 // components
 import HotSongBanners from "./HotSongBanners";
 import SongRanking from "./SongRanking";
-
+import HotSinger from "./HotSinger";
 /**
  * Home - home page
  */
@@ -14,6 +14,9 @@ const Home = () => {
     <div className="home">
       <HotSongBanners />
       <SongRanking />
+      <section>
+        <HotSinger />
+      </section>
     </div>
   );
 };
