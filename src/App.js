@@ -1,5 +1,6 @@
 // LIBS IMPORT
 import React from "react";
+import "antd/dist/antd.css";
 
 // COMPONENTS
 import Home from "./pages/Home";

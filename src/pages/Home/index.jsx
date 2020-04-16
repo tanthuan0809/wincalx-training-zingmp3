@@ -12,6 +12,7 @@ import SongRankWeekly from "./SongRankWeekly";
 import HotTheme from "./HotTheme";
 import PartnerCompanies from "./PartnerCompanies";
 import HotSinger from "./HotSinger";
+import MVRankWeekly from "./MVRankWeekly";
 // import style
 import "./style.scss";
 
@@ -47,6 +48,7 @@ const Home = () => {
         <section>
           <HotSinger />
         </section>
+        <MVRankWeekly />
       </div>
     </div>
   );
