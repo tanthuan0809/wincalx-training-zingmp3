@@ -1,0 +1,40 @@
+.mv-rank-weekly-wrapper {
+  .content-mv-rank-wrapper {
+    .ant-tabs-bar {
+      margin: 0 !important;
+    }
+
+    .ant-tabs-nav.ant-tabs-nav-animated {
+      width: 100%;
+      div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        text-align: center;
+      }
+
+      .ant-tabs-tab {
+        font-size: 20px;
+        background-color: #ddd;
+        display: block;
+        margin: 0;
+        align-self: center;
+        border: 0.5px solid #ddd !important;
+        color: #000 !important;
+
+        &:hover {
+          border-top: 2px solid rgb(128, 0, 128) !important;
+        }
+      }
+
+      .ant-tabs-tab.ant-tabs-tab-active {
+        background-color: #fff;
+      }
+
+      .ant-tabs-ink-bar {
+        background-color: rgb(128, 0, 128);
+        top: 0;
+      }
+    }
+  }
+}
