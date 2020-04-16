@@ -11,6 +11,7 @@ import MusicForYou from "./MusicForYou";
 import SongRankWeekly from "./SongRankWeekly";
 import HotTheme from "./HotTheme";
 import PartnerCompanies from "./PartnerCompanies";
+import HotSinger from "./HotSinger";
 // import style
 import "./style.scss";
 
@@ -42,6 +43,9 @@ const Home = () => {
         </section>
         <section>
           <PartnerCompanies />
+        </section>
+        <section>
+          <HotSinger />
         </section>
       </div>
     </div>
