@@ -1,0 +1,7 @@
+.song-list-in-top-3-chart-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-column-gap: 50px;
+  padding: 5px 20px;
+}
