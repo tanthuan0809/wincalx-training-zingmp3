@@ -10,6 +10,7 @@ import MusicNew from "./MusicNew";
 import MusicForYou from "./MusicForYou";
 import SongRankWeekly from "./SongRankWeekly";
 import HotTheme from "./HotTheme";
+import PartnerCompanies from "./PartnerCompanies";
 // import style
 import "./style.scss";
 
@@ -38,6 +39,9 @@ const Home = () => {
         </section>
         <section>
           <HotTheme />
+        </section>
+        <section>
+          <PartnerCompanies />
         </section>
       </div>
     </div>

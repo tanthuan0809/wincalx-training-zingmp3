@@ -1,0 +1,9 @@
+.partner-companies-wrapper {
+  margin-left: 1rem;
+  &-inner {
+    display: grid;
+    grid-template-columns: 80px 800px;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+}
