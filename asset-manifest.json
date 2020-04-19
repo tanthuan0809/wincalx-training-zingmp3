@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wincalx-training-zingmp3/static/css/main.9373d557.chunk.css",
+    "main.js": "/wincalx-training-zingmp3/static/js/main.24d15a2d.chunk.js",
+    "main.js.map": "/wincalx-training-zingmp3/static/js/main.24d15a2d.chunk.js.map",
+    "runtime-main.js": "/wincalx-training-zingmp3/static/js/runtime-main.459b653c.js",
+    "runtime-main.js.map": "/wincalx-training-zingmp3/static/js/runtime-main.459b653c.js.map",
+    "static/css/2.29c1ed91.chunk.css": "/wincalx-training-zingmp3/static/css/2.29c1ed91.chunk.css",
+    "static/js/2.3cac097f.chunk.js": "/wincalx-training-zingmp3/static/js/2.3cac097f.chunk.js",
+    "static/js/2.3cac097f.chunk.js.map": "/wincalx-training-zingmp3/static/js/2.3cac097f.chunk.js.map",
+    "index.html": "/wincalx-training-zingmp3/index.html",
+    "precache-manifest.2d8042c032f6577f55ea78331b4ca182.js": "/wincalx-training-zingmp3/precache-manifest.2d8042c032f6577f55ea78331b4ca182.js",
+    "service-worker.js": "/wincalx-training-zingmp3/service-worker.js",
+    "static/css/2.29c1ed91.chunk.css.map": "/wincalx-training-zingmp3/static/css/2.29c1ed91.chunk.css.map",
+    "static/css/main.9373d557.chunk.css.map": "/wincalx-training-zingmp3/static/css/main.9373d557.chunk.css.map",
+    "static/js/2.3cac097f.chunk.js.LICENSE.txt": "/wincalx-training-zingmp3/static/js/2.3cac097f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.459b653c.js",
+    "static/css/2.29c1ed91.chunk.css",
+    "static/js/2.3cac097f.chunk.js",
+    "static/css/main.9373d557.chunk.css",
+    "static/js/main.24d15a2d.chunk.js"
+  ]
+}
