@@ -1,0 +1,8 @@
+.hot-songs-wrapper .song-thumbnail-wraper {
+  img {
+    width: 100%;
+    grid-column: 1;
+    object-fit: fill;
+    display: block;
+  }
+}

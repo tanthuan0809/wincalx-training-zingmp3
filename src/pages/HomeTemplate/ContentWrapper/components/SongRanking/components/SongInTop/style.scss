@@ -1,0 +1,7 @@
+.song-in-top-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20fr 1fr 2fr;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 0.5px solid #eee;
+}

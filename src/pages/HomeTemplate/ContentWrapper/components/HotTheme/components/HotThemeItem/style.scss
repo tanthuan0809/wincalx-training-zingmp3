@@ -1,0 +1,7 @@
+.hot-theme-wrapper .hot-theme-item-wrapper {
+  display: grid;
+  &-inner {
+    display: grid;
+    align-items: center;
+  }
+}

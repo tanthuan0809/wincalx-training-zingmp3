@@ -1,0 +1,6 @@
+.song-rank-weekly-wrapper .song-rank-weekly-colection-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-rows: 35px 150px 1fr;
+  }
+}

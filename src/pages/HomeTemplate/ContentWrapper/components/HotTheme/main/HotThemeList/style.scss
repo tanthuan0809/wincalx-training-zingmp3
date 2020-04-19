@@ -1,0 +1,6 @@
+.hot-theme-wrapper .hot-theme-list-wrapper-inner {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(5, 125px);
+  grid-gap: 10px;
+}

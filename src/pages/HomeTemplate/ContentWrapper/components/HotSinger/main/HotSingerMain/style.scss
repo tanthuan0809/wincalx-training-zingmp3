@@ -1,0 +1,8 @@
+.hot-singer-wrapper .hot-singer-main-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.3fr 3fr;
+    grid-gap: 10px;
+  }
+}

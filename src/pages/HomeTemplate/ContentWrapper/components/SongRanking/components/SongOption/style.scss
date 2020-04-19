@@ -1,0 +1,16 @@
+.song-ranking-wrapper .song-option-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  i {
+    margin-right: 5px;
+    color: #c6c6c6;
+
+    &:hover {
+      color: rgb(147, 46, 219);
+    }
+
+    svg {
+      display: block;
+    }
+  }
+}

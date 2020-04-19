@@ -1,0 +1,8 @@
+.chart-ranking-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-rows: 0.5fr 2.5fr 0.75fr;
+    background-color: #000;
+    color: #fff;
+  }
+}

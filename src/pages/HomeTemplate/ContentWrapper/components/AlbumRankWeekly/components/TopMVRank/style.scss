@@ -1,0 +1,15 @@
+.mv-rank-weekly-wrapper {
+  .top-mv-rank-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+    align-items: center;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .top-mv-rank-wrapper.top1 {
+    display: block;
+    color: #fff;
+  }
+}

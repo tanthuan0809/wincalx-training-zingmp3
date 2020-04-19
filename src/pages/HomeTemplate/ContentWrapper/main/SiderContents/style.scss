@@ -1,0 +1,7 @@
+.content-wrapper .sider-contents-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-rows: repeat(5, mimax(0.3fr, 1fr));
+    grid-gap: 10px;
+  }
+}

@@ -1,0 +1,7 @@
+.hot-song-banners-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-rows: 500px 1fr;
+    grid-row-gap: 10px;
+  }
+}

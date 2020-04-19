@@ -2,7 +2,8 @@
 import React from "react";
 
 // COMPONENTS
-import Home from "./pages/Home";
+import Home from "./pages/HomeTemplate";
+import "antd/dist/antd.css";
 
 function App() {
   return (

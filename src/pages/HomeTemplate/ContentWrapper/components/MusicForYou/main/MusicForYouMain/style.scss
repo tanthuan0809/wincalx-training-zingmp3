@@ -1,0 +1,7 @@
+.music-for-you-wrapper .music-for-you-main-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-column-gap: 10px;
+  }
+}

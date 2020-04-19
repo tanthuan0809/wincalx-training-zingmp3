@@ -1,0 +1,16 @@
+.mv-rank-weekly-wrapper .top-1-mv-wrapper-inner {
+  display: grid;
+  align-items: end;
+  height: 150px;
+  .top-1-mv {
+    display: grid;
+    grid-template-columns: 0.7fr 3fr 0.5fr;
+    color: rgb(240, 231, 231);
+    .top-1-number {
+      font-size: 20px;
+    }
+    .info-top-1 {
+      font-size: 14px;
+    }
+  }
+}
